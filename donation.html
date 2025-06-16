@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  
+
   <header>
     <h1>Switch to Renewable Energy</h1>
     <nav>
@@ -19,34 +19,53 @@
   </header>
 
   <main class="donation-flex">
-  <div class="donation-image">
-    <img src="assets/renewable-energy.jpg" alt="Renewable energy" />
-  </div>
-
-  <div class="donation-content">
-    <h1>Help Power a Greener Future</h1>
-
-    <p>
-      Join us in the fight against climate change by supporting clean, renewable energy.
-      Your donation helps fund solar panels, wind turbines, and sustainable energy solutions
-      that reduce carbon emissions and protect our planet for future generations.
-    </p>
-
-    <div class="donation-form">
-      <select class="donation-type">
-        <option value="one-time"> One Time</option>
-        <option value="monthly"> Monthly</option>
-      </select>
-
-      <input type="text" placeholder="$ Amount" />
-      <button type="button">Donate</button>
+    <div class="donation-image">
+      <img src="assets/renewable-energy.jpg" alt="Renewable energy" />
     </div>
-  </div>
-  </main>
 
+    <div class="donation-content">
+      <h1>Help Power a Greener Future</h1>
+
+      <p>
+        Join us in the fight against climate change by supporting clean, renewable energy.
+        Your donation helps fund solar panels, wind turbines, and sustainable energy solutions
+        that reduce carbon emissions and protect our planet for future generations.
+      </p>
+
+      <div class="donation-form">
+        <select class="donation-type">
+          <option value="one-time">One-time</option>
+          <option value="monthly">Monthly</option>
+        </select>
+
+        <input type="text" placeholder="$ Amount" />
+        <button type="button">Donate</button>
+      </div>
+
+      <div class="payment-information">
+        <h3>Payment Information</h3>
+
+        <label for="name">Name on Card*</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="card-number">Card Number*</label>
+        <input type="text" id="card-number" name="card-number" />
+
+        <label for="month">Expiration Month*</label>
+        <input type="text" id="month" name="month" />
+
+        <label for="year">Expiration Year*</label>
+        <input type="text" id="year" name="year" />
+
+        <label for="cvv">CVV*</label>
+        <input type="text" id="cvv" name="cvv" />
+      </div>
+    </div>
+  </main>
 
   <footer>
     © 2025 SwitchToRenewables.org | About | Privacy
   </footer>
+
 </body>
 </html>
