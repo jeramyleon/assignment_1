@@ -13,7 +13,42 @@ body {
   line-height: 1.6;
 }
 
+/* === Main Content === */
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+h1, h2 {
+  color: #245943;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+ul {
+  margin: 16px 0 32px 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
 
 /* === Donation Page === */
 .donation-flex {
@@ -101,8 +136,6 @@ body {
   border: 2px solid #245943;
 }
 
-
-
 /* === Header === */
 header {
   background-color: #def3d4;
@@ -131,7 +164,7 @@ nav a:hover {
 /* === Main Intro Section === */
 .intro {
   background-color: #e6f5ec;
-  padding: 20px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -160,66 +193,40 @@ nav a:hover {
   gap: 16px;
 }
 
-.button-group button {
+.button-group button,
+.button-group a {
   padding: 12px 24px;
   font-size: 16px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
-}
-
-button.learn {
-  background-color: white;
-  color: #245943;
-  border: 2px solid #245943;
-}
-
-button.learn:hover {
-  background-color: #f0fff8;
-}
-
-button.action {
-  background-color: #245943;
-  color: white;
-}
-
-button.action:hover {
-  background-color: #193b2e;
-}
-
-
-.button-group a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 12px 24px;
-  font-size: 16px;
-  border-radius: 6px;
   font-family: 'Poppins', sans-serif;
-  transition: all 0.3s ease;
-  cursor: pointer;
+  text-decoration: none;
 }
 
+button.learn,
 a.learn {
   background-color: white;
   color: #245943;
   border: 2px solid #245943;
 }
 
+button.learn:hover,
 a.learn:hover {
   background-color: #f0fff8;
 }
 
+button.action,
 a.action {
   background-color: #245943;
   color: white;
 }
 
+button.action:hover,
 a.action:hover {
   background-color: #193b2e;
 }
-
-
 
 /* === Features Section === */
 .features {
@@ -290,4 +297,13 @@ footer {
   padding: 20px;
   font-size: 14px;
   color: #245943;
+}
+
+/* === Banner Styling === */
+.banner-img {
+  display: block;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
 }
