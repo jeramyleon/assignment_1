@@ -4,7 +4,7 @@ TTP's Team 2 has created a modern, responsive, multipage website to raise awaren
 
 ---
 
-## 🔗 Live Demo
+# 🔗 Live Demo
 > [Switch to Renewable Energy!](https://jeramyleon.github.io/assignment_1/)
 
 ---
@@ -35,7 +35,7 @@ assignment_1/
 
 ---
 
-## ✅ Features
+# ✅ Features
 - Fully responsive design
 - Semantic HTML and clean CSS
 - Smooth navigation across 3 pages
@@ -43,7 +43,7 @@ assignment_1/
 
 ---
 
-## 👥 Team Roles
+# 👥 Team Roles
 
 | Member         | Role                    | Git Branch         |
 |----------------|-------------------------|--------------------|
@@ -54,7 +54,7 @@ assignment_1/
 
 ---
 
-## 🛠 Setup & Usage
+# 🛠 Setup & Usage
 
 To run this project locally:
 
@@ -68,7 +68,7 @@ Or use **Live Server** in VS Code for auto-refresh.
 
 ---
 
-## 🔧 Development Workflow
+# 🔧 Development Workflow
 - Branch-per-feature approach (`git checkout -b branch-name`)
 - Pull Requests for all merges to `main`
 - Issues were created and assigned for all major tasks
@@ -76,6 +76,6 @@ Or use **Live Server** in VS Code for auto-refresh.
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is for educational use only. All assets are original or AI-generated and free for reuse under the team’s discretion.
