@@ -7,16 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Help Power a Greener Future</h1>
-    <img src="renewable-energy.jpg" alt="pic1">
-    <h2>Join us in the fight against climate change by supporting clean, renewable energy. Your donation helps fund solar panels, wind turbines, and sustainable energy solutions that reduce carbon emissions and protect our planet for future generations.</h2>
+    <div class="header">
+        <h1>Help Power a Greener Future</h1>
+        <img src="renewable-energy.jpg" alt="pic1">
+        <h2>Join us in the fight against climate change by supporting clean, renewable energy. Your donation helps fund solar panels, wind turbines, and sustainable energy solutions that reduce carbon emissions and protect our planet for future generations.</h2>
+    </div>
     
-    <button type="button">One-time</button>
-    <button type="button">Monthly</button>
-    <input type="amount">
+    <div class="payment-options">
+        <button type="button">One-time</button>
+        <button type="button">Monthly</button>
+        <label for="amount">Amount</label>
+        <input type="text" id="amount" amount="amount">
+    </div>
+    
+    <div class="payment-information">
+        <h3>Payment information</h3>
+        <label for="name">Name on Card*</label>
+        <input type="text" id="name" name="name">
 
-    <button type="button">Donate</button>
-    <a href="index.html">Home</a>
-    <a href="">About Us</a>
+        <label for="card-number">Card Number*</label>
+        <input type="text" id="card-number" cardNumber="card-number">
+        
+        <label for="month">Expiration Month*</label>
+        <input type="text" id="month" month="month">
+
+        <label for="year">Expiration Year*</label>
+        <input type="text" id="year" year="year">
+
+        <label for="cvv">CVV*</label>
+        <input type="text" id="cvv" cvv="cvv">
+    </div>
+    
+    <div class="donate-button">
+        <button type="button">Donate</button>
+    </div>
+    
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="">About Us</a>
+    </div>    
 </body>
 </html>
