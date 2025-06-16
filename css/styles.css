@@ -187,6 +187,7 @@ nav a:hover {
   border-radius: 12px;
 }
 
+/* === Buttons (used in .button-group) === */
 .button-group {
   display: flex;
   justify-content: center;
