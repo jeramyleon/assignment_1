@@ -1,0 +1,205 @@
+/* === Team 2 Fast 4 U === */
+/* === Global Values === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6fdf6;
+  color: #1e3d2f;
+  line-height: 1.6;
+}
+
+
+/* === Main Content === */
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #245943;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+ul {
+  margin: 16px 0 32px 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+
+/* === Header === */
+header {
+  background-color: #def3d4;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+  color: #245943;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #245943;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* === Main Intro Section === */
+.intro {
+  background-color: #e6f5ec;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 36px;
+  color: #245943;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #245943;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.button-group button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.learn {
+  background-color: white;
+  color: #245943;
+  border: 2px solid #245943;
+}
+
+button.learn:hover {
+  background-color: #f0fff8;
+}
+
+button.action {
+  background-color: #245943;
+  color: white;
+}
+
+button.action:hover {
+  background-color: #193b2e;
+}
+
+/* === Features Section === */
+.features {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h3 {
+  font-size: 28px;
+  color: #245943;
+  margin-bottom: 40px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  flex: 1 1 200px;
+  max-width: 220px;
+  padding: 20px;
+}
+
+.feature-card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.feature-card h4 {
+  font-size: 20px;
+  color: #245943;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #444;
+}
+
+/* === Impact Banner === */
+.impact {
+  background-color: #def3d4;
+  padding: 30px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.impact img {
+  width: 50px;
+}
+
+.impact p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #245943;
+}
+
+/* === Footer === */
+footer {
+  background-color: #def3d4;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #245943;
+}
