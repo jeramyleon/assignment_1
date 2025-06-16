@@ -83,6 +83,24 @@ body {
   background-color: #193b2e;
 }
 
+.donation-type {
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: rgb(155, 230, 139);
+  color: #245943;
+  font-family: 'Poppins', sans-serif;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.donation-type:focus {
+  outline: none;
+  border: 2px solid #245943;
+}
+
 
 
 /* === Header === */
