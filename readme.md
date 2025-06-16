@@ -47,9 +47,9 @@ assignment_1/
 
 | Member         | Role                    | Git Branch         |
 |----------------|-------------------------|--------------------|
-| Jeramy         | Home Page               | `home-page`        |
+| Emmanuel       | Home Page               | `home-page`        |
 | Benjamin       | About Renewables Page   | `renewables-page`  |
-| Emannuel       | Take Action Page        | `take-action-page` |
+| Jeramy         | Take Action Page        | `take-action-page` |
 | Tina           | CSS Stylist/Integrator  | `page-styling`     |
 
 ---
