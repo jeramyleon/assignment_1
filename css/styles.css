@@ -50,20 +50,17 @@ li {
   margin-bottom: 10px;
 }
 
+
 /* === Donation Page === */
 .donation-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch; /* ← force equal height */
   gap: 40px;
   padding: 60px 20px;
 }
 
-.donation-image {
-  flex: 1;
-  max-width: 500px;
-}
 
 .donation-image img {
   width: 100%;
@@ -71,9 +68,21 @@ li {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
+.donation-image,
 .donation-content {
   flex: 1;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.donation-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .donation-content h1 {
@@ -164,14 +173,14 @@ nav a:hover {
 /* === Main Intro Section === */
 .intro {
   background-color: #e6f5ec;
-  padding: 60px 20px;
+  padding: 20px 20px; /* Re-introduce minimal vertical padding */
   text-align: center;
 }
 
 .intro h2 {
   font-size: 36px;
   color: #245943;
-  margin-bottom: 20px;
+  margin: 10px 0 20px 0; /* Reduce top space */
 }
 
 .intro p {
