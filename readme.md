@@ -9,7 +9,7 @@ TTP's Team 2 has created a modern, responsive, multipage website to raise awaren
 
 ---
 
-## 🎯 Project Goals
+# 🎯 Project Goals
 - Promote awareness of renewable energy benefits
 - Build a professional-looking, mobile-responsive website
 - To allow us, the dream team, to practice collaborative coding using Git and GitHub
