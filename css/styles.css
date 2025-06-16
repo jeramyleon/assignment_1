@@ -1,0 +1,254 @@
+/* === Team 2 Fast 4 U === */
+/* === Global Values === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6fdf6;
+  color: #1e3d2f;
+  line-height: 1.6;
+}
+
+
+
+/* === Donation Page === */
+.donation-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.donation-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.donation-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.donation-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.donation-content h1 {
+  font-size: 28px;
+  color: #245943;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.donation-content p {
+  font-size: 16px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.donation-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.donation-form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.donation-form button {
+  background-color: #245943;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.donation-form button:hover {
+  background-color: #193b2e;
+}
+
+.donation-type {
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: rgb(155, 230, 139);
+  color: #245943;
+  font-family: 'Poppins', sans-serif;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.donation-type:focus {
+  outline: none;
+  border: 2px solid #245943;
+}
+
+
+
+/* === Header === */
+header {
+  background-color: #def3d4;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+  color: #245943;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #245943;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* === Main Intro Section === */
+.intro {
+  background-color: #e6f5ec;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 36px;
+  color: #245943;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #245943;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.button-group button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.learn {
+  background-color: white;
+  color: #245943;
+  border: 2px solid #245943;
+}
+
+button.learn:hover {
+  background-color: #f0fff8;
+}
+
+button.action {
+  background-color: #245943;
+  color: white;
+}
+
+button.action:hover {
+  background-color: #193b2e;
+}
+
+/* === Features Section === */
+.features {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h3 {
+  font-size: 28px;
+  color: #245943;
+  margin-bottom: 40px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  flex: 1 1 200px;
+  max-width: 220px;
+  padding: 20px;
+}
+
+.feature-card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.feature-card h4 {
+  font-size: 20px;
+  color: #245943;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #444;
+}
+
+/* === Impact Banner === */
+.impact {
+  background-color: #def3d4;
+  padding: 30px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.impact img {
+  width: 50px;
+}
+
+.impact p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #245943;
+}
+
+/* === Footer === */
+footer {
+  background-color: #def3d4;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #245943;
+}

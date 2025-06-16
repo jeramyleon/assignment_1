@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title></title>
+  <title>Donation Page</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  
+
   <header>
     <h1>Switch to Renewable Energy</h1>
     <nav>
@@ -17,40 +17,55 @@
       <a href="donation.html">Take Action</a>
     </nav>
   </header>
-<body>
-    <div class="header">
-        <h1>Help Power a Greener Future</h1>
-        <img src="renewable-energy.jpg" alt="pic1">
-        <h2>Join us in the fight against climate change by supporting clean, renewable energy. Your donation helps fund solar panels, wind turbines, and sustainable energy solutions that reduce carbon emissions and protect our planet for future generations.</h2>
+
+  <main class="donation-flex">
+    <div class="donation-image">
+      <img src="assets/renewable-energy.jpg" alt="Renewable energy" />
     </div>
-    
-    <div class="payment-options">
-        <button type="button">One-time</button>
-        <button type="button">Monthly</button>
-        <label for="amount">Amount</label>
-        <input type="text" id="amount" amount="amount">
-    </div>
-    
-    <div class="payment-information">
-        <h3>Payment information</h3>
+
+    <div class="donation-content">
+      <h1>Help Power a Greener Future</h1>
+
+      <p>
+        Join us in the fight against climate change by supporting clean, renewable energy.
+        Your donation helps fund solar panels, wind turbines, and sustainable energy solutions
+        that reduce carbon emissions and protect our planet for future generations.
+      </p>
+
+      <div class="donation-form">
+        <select class="donation-type">
+          <option value="one-time">One-time</option>
+          <option value="monthly">Monthly</option>
+        </select>
+
+        <input type="text" placeholder="$ Amount" />
+        <button type="button">Donate</button>
+      </div>
+
+      <div class="payment-information">
+        <h3>Payment Information</h3>
+
         <label for="name">Name on Card*</label>
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name" />
 
         <label for="card-number">Card Number*</label>
-        <input type="text" id="card-number" cardNumber="card-number">
-        
+        <input type="text" id="card-number" name="card-number" />
+
         <label for="month">Expiration Month*</label>
-        <input type="text" id="month" month="month">
+        <input type="text" id="month" name="month" />
 
         <label for="year">Expiration Year*</label>
-        <input type="text" id="year" year="year">
+        <input type="text" id="year" name="year" />
 
         <label for="cvv">CVV*</label>
-        <input type="text" id="cvv" cvv="cvv">
+        <input type="text" id="cvv" name="cvv" />
+      </div>
     </div>
-    
-    <div class="donate-button">
-        <button type="button">Donate</button>
-    </div>
+  </main>
+
+  <footer>
+    © 2025 SwitchToRenewables.org | About | Privacy
+  </footer>
+
 </body>
 </html>
