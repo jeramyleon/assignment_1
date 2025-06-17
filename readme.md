@@ -4,38 +4,42 @@ TTP's Team 2 has created a modern, responsive, multipage website to raise awaren
 
 ---
 
-# 🔗 Live Demo
+## 🔗 Live Demo
 > [Switch to Renewable Energy!](https://jeramyleon.github.io/assignment_1/)
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```
 assignment_1/
-├── index.html               # Home page
-├── about.html               # Information page on types of renewable energy
-├── donation.html            # Call-to-action page with tips & a mock donation button
+├── assets/
+│   ├── banner.jpg           # Banner image for the about page
+│   ├── clean-icon.png       # Recycling icon
+│   ├── earth-icon.png       # Globe icon used in the impact section
+│   ├── Polar-bear.JPG       # Image of polar bear stranded on ice
+│   ├── renewable-energy.jpg # Image for the call-to-action page
+│   ├── savings-icon.png     # Cost savings icon
+│   ├── Solar-wind.webp      # Image of wind & solar farm
+│   ├── sustainable-icon.png # Battery icon
+│   └── turbines.png         # Wind turbines
 ├── css/
 │   └── styles.css           # All styling lives here
-├── assets/
-│   ├── earth-icon.png       # Icon used in the impact section
-│   ├── clean-icon.png       # Recycling symbol
-│   ├── battery-icon.png     # Sustainable energy battery
-│   ├── savings-icon.png     # Cost savings icon
-│   └── renewable-energy.jpg # Image of wind & solar farm
+├── about.html               # Information page on types of renewable energy
+├── donation.html            # Call-to-action page with tips & a mock donation button
+└── index.html               # Home page
 ```
 
 ---
 
-# 🎯 Project Goals
+## 🎯 Project Goals
 - Promote awareness of renewable energy benefits
 - Build a professional-looking, mobile-responsive website
 - To allow us, the dream team, to practice collaborative coding using Git and GitHub
 
 ---
 
-# ✅ Features
+## ✅ Features
 - Fully responsive design
 - Semantic HTML and clean CSS
 - Smooth navigation across 3 pages
@@ -43,24 +47,24 @@ assignment_1/
 
 ---
 
-# 👥 Team Roles
+## 👥 Team Roles
 
 | Member         | Role                    | Git Branch         |
 |----------------|-------------------------|--------------------|
 | Emmanuel       | Home Page               | `home-page`        |
-| Benjamin       | About Renewables Page   | `renewables-page`  |
-| Jeramy         | Take Action Page        | `take-action-page` |
+| Benjamin       | About Renewables Page   | `about-page`       |
+| Jeramy         | Take Action Page        | `donation-page`    |
 | Tina           | CSS Stylist/Integrator  | `page-styling`     |
 
 ---
 
-# 🛠 Setup & Usage
+## 🛠 Setup & Usage
 
 To run this project locally:
 
 ```bash
-git clone https://github.com/yourusername/switch-to-renewables.git
-cd switch-to-renewables
+git clone https://github.com/jeramyleon/assignment_1.git
+cd assignment_1
 open index.html
 ```
 
@@ -68,7 +72,7 @@ Or use **Live Server** in VS Code for auto-refresh.
 
 ---
 
-# 🔧 Development Workflow
+## 🔧 Development Workflow
 - Branch-per-feature approach (`git checkout -b branch-name`)
 - Pull Requests for all merges to `main`
 - Issues were created and assigned for all major tasks
@@ -76,6 +80,6 @@ Or use **Live Server** in VS Code for auto-refresh.
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is for educational use only. All assets are original or AI-generated and free for reuse under the team’s discretion.
