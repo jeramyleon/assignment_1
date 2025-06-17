@@ -73,7 +73,7 @@ Or use **Live Server** in VS Code for auto-refresh.
 ---
 
 ## 🔧 Development Workflow
-- Branch-per-feature approach (`git checkout -b branch-name`)
+- Branch-per-feature approach (`git checkout -b <branch-name>`)
 - Pull Requests for all merges to `main`
 - Issues were created and assigned for all major tasks
 - Commit messages reference issues (e.g., `closes #4`)
