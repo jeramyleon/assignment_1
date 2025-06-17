@@ -5,7 +5,7 @@ TTP's Team 2 has created a modern, responsive, multipage website to raise awaren
 ---
 
 ## 🔗 Live Demo
-> [Switch to Renewable Energy!](https://jeramyleon.github.io/assignment_1/)
+[Switch to Renewable Energy!](https://jeramyleon.github.io/assignment_1/)
 
 ---
 
