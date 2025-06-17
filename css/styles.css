@@ -20,7 +20,8 @@ main {
   margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #245943;
   margin-bottom: 16px;
 }
@@ -56,7 +57,8 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch; /* ← force equal height */
+  align-items: stretch;
+  /* ← force equal height */
   gap: 40px;
   padding: 60px 20px;
 }
@@ -154,9 +156,9 @@ header {
   align-items: center;
 }
 
-header h1 {
-  font-size: 20px;
+header h1 a {
   color: #245943;
+  text-decoration: none;
 }
 
 nav a {
@@ -173,14 +175,16 @@ nav a:hover {
 /* === Main Intro Section === */
 .intro {
   background-color: #e6f5ec;
-  padding: 20px 20px; /* Re-introduce minimal vertical padding */
+  padding: 20px 20px;
+  /* Re-introduce minimal vertical padding */
   text-align: center;
 }
 
 .intro h2 {
   font-size: 36px;
   color: #245943;
-  margin: 10px 0 20px 0; /* Reduce top space */
+  margin: 10px 0 20px 0;
+  /* Reduce top space */
 }
 
 .intro p {
