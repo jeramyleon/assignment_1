@@ -16,7 +16,7 @@ body {
 /* === Main Content === */
 main {
   padding: 40px 20px;
-  max-width: 800px;
+  max-width: 2000px;
   margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ li {
 .donation-image,
 .donation-content {
   flex: 1;
-  max-width: 500px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
